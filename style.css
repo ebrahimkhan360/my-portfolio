@@ -8,7 +8,7 @@ h1{
 .gold-color{
     color: gold;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,30 @@ font-weight: 700;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin: 5%;
+    margin: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#web-devoloper{
+    border-left: 7px solid;
+     border-image: linear-gradient(red, cyan);
+     border-image-slice: 1;
+}
+#full-exprienc{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
